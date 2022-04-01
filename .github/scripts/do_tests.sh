@@ -19,9 +19,7 @@ case "$1" in
     straxen_version=`python -c "import straxen; print(straxen.__version__)"`
     git clone --single-branch --branch v$straxen_version https://github.com/XENONnT/straxen.git
     bash straxen/.github/scripts/create_pre_apply_function.sh $HOME
-    cd straxen
-    pytest || { echo 'straxen tests failed' ; exit 1; }
-    cd ..
+    pytest straxen || { echo 'straxen tests failed' ; exit 1; }
     rm -r straxen
     rm $HOME/pre_apply_function.py
   ;;
