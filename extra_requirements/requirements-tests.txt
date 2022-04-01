@@ -21,6 +21,7 @@ keras==2.8.0                                    # Tensorflow dependency
 keras==2.8.0                                    # Tensorflow dependency
 lz4==4.0.0
 matplotlib==3.5.1
+memory_profiler==0.60.0
 mongomock==4.0.0
 multihist==0.6.5
 git+https://github.com/NESTCollaboration/nestpy@v1.5.0; python_version=="3.10"
