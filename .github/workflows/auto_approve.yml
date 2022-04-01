@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     if: github.actor == 'dependabot[bot]'
-    name: Hello new contributor
+    name: Auto approve
     runs-on: ubuntu-latest
     steps:
       - uses: derekprior/add-autoresponse@master
