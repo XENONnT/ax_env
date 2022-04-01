@@ -51,7 +51,7 @@ jobs:
           SCADA_PWD: ${{ secrets.SCADA_PWD }}
       # Run tests
       - name: Test packages
-        run: bash .github/scripts/do_test.sh
+        run: bash .github/scripts/do_tests.sh
       # Done
       - name: goodbye
         run: echo "tests done, bye bye"
