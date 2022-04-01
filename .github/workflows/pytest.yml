@@ -29,7 +29,7 @@ jobs:
       - name: Install requirements
         run: |
           pip install -r extra_requirements/requirements-tests.txt
-          pip install -r extra_requirements/requirements-core.txt
+          pip install -r requirements.txt
       # Secrets and required files
       - name: patch utilix file
         # Patch this file if we want to have access to the database
@@ -51,21 +51,7 @@ jobs:
           SCADA_PWD: ${{ secrets.SCADA_PWD }}
       # Run tests
       - name: Test packages
-        # This is running a normal test
-        if: matrix.test == 'pytest'
-        run: |
-          bash .github/scripts/do_test.sh
-      - name: Coveralls
-        # Make the coverage report and upload
-        env:
-          NUMBA_DISABLE_JIT: 1
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: matrix.test == 'coveralls'
-        run: |
-          coverage run --source=reprox,bin setup.py test -v
-          coveralls --service=github
-          echo ${{ matrix.straxen_version }}
-          bash .github/scripts/test_old_version.sh ${{ matrix.straxen_version }}
+        run: bash .github/scripts/do_test.sh
       # Done
       - name: goodbye
         run: echo "tests done, bye bye"

@@ -10,16 +10,25 @@ updates:
     schedule:
       interval: "weekly"
     assignees:
-      - jorana
+      - JoranAngevaare
+
   # Maintain the requirements requirements folder
   - package-ecosystem: "pip"
     directory: "/extra_requirements"
     schedule:
       # Check for updates to requirements every week
       interval: "monthly"
-    # Raise pull requests for version updates
-    # to pip against the `develop` branch
-    target-branch: "development"
-    open-pull-requests-limit: 15
+    target-branch: "master"
+    open-pull-requests-limit: 30
     assignees:
-      - jorana
+      - JoranAngevaare
+
+  - package-ecosystem: "pip"
+    directory: "/extra_requirements"
+    schedule:
+      # Check for updates to requirements every week
+      interval: "dayly"
+    target-branch: "master"
+    assignees:
+      - JoranAngevaare
+
