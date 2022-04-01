@@ -16,6 +16,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          respondableId: ${{ github.event.issue.node_id }}
+          respondableId: ${{ github.event.pull_request.node_id }}
           response: "@dependabot squash and merge"
-          author: ${{ github.event.issue.user.login }}
+          author: ${{ github.event.pull_request.user.login }}
