@@ -1,0 +1,26 @@
+# Auto approve dependabot updates if it passes the tests
+
+name: Auto approve
+description: Automatically approve
+branding:
+  icon: message-square
+  color: yellow
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [ created ]
+
+jobs:
+  build:
+    if: github.actor == 'dependabot[bot]'
+    name: Hello new contributor
+    runs-on: ubuntu-latest
+    steps:
+      - uses: derekprior/add-autoresponse@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          respondableId: ${{ github.event.issue.node_id }}
+          response: "@dependabot squash and merge"
+          author: ${{ github.event.issue.user.login }}
