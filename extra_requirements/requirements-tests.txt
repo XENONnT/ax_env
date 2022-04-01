@@ -9,22 +9,30 @@ datashader==0.13.0
 dill==0.3.4                                     # Strax dependency
 epix==0.2.2
 flake8==4.0.1
+fsspec==2022.3.0
 holoviews==1.14.5
 hypothesis==6.39.0
+immutabledict==2.2.1
 ipywidgets==7.7.0
 jinja2==3.0.3                                   # Holoviews dependency
+Jinja2==3.0.3                                   # Holoviews dependency
 jupyter-client==7.1.2                           # for ipywidgets
 keras==2.8.0                                    # Tensorflow dependency
+keras==2.8.0                                    # Tensorflow dependency
+lz4==4.0.0
 matplotlib==3.5.1
+mongomock==4.0.0
 multihist==0.6.5
-nestpy==1.5.0; python_version<="3.9"
 nestpy==1.4.7; python_version=="3.10"
+nestpy==1.5.0; python_version<="3.9"
 npshmex==0.2.1                                  # Strax dependency
 numba==0.55.1                                   # Strax dependency
+numexpr==2.8.1
 numpy==1.21.5
+packaging==21.3
 pandas==1.4.1                                   # Strax dependency
 psutil==5.9.0                                   # Strax dependency
-pymongo==3.12.0                                 # Strax dependency
+pymongo==3.12.1                                 # Strax dependency
 pytest==7.1.1
 pytest-cov==3.0.0
 scikit-learn==1.0.2
@@ -34,4 +42,5 @@ tqdm==4.63.1
 uproot==4.2.2
 utilix==0.6.6
 xarray==2022.3.0
+zarr==2.11.1
 zstd==1.5.0.4                                   # Strax dependency
