@@ -1,7 +1,3 @@
-# Set update schedule for GitHub Actions to check they are up to date
-# If one of the github actions is out of date, dependabot will open a
-# PR to update the version of that action
-
 version: 2
 updates:
   # Maintain the requirements in the github actions
@@ -16,8 +12,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/extra_requirements"
     schedule:
-      # Check for updates to requirements every week
-      interval: "monthly"
+      interval: "hourly"
     target-branch: "master"
     open-pull-requests-limit: 30
     assignees:
@@ -26,8 +21,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      # Check for updates to requirements every week
-      interval: "daily"
+      interval: "hourly"
     target-branch: "master"
     assignees:
       - JoranAngevaare
