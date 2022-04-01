@@ -20,7 +20,7 @@ case "$1" in
     git clone --single-branch --branch v$straxen_version https://github.com/XENONnT/straxen.git
     bash straxen/.github/scripts/create_pre_apply_function.sh $HOME
     cd straxen
-    python setup.py test || { echo 'straxen tests failed' ; exit 1; }
+    pytest || { echo 'straxen tests failed' ; exit 1; }
     cd ..
     rm -r straxen
     rm $HOME/pre_apply_function.py
