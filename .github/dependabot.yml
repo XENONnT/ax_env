@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
     assignees:
       - JoranAngevaare
 
@@ -12,7 +12,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/extra_requirements"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     target-branch: "master"
     open-pull-requests-limit: 30
     assignees:
@@ -21,7 +21,7 @@ updates:
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
-      interval: "hourly"
+      interval: "daily"
     target-branch: "master"
     assignees:
       - JoranAngevaare
