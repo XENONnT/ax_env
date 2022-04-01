@@ -27,7 +27,7 @@ updates:
     directory: "/extra_requirements"
     schedule:
       # Check for updates to requirements every week
-      interval: "dayly"
+      interval: "daily"
     target-branch: "master"
     assignees:
       - JoranAngevaare
