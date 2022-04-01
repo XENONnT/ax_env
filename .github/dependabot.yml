@@ -14,7 +14,6 @@ updates:
     schedule:
       interval: "daily"
     target-branch: "master"
-    open-pull-requests-limit: 30
     assignees:
       - JoranAngevaare
 
