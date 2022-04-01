@@ -8,13 +8,13 @@ updates:
     assignees:
       - JoranAngevaare
 
-#   - package-ecosystem: "pip"
-#     directory: "/extra_requirements"
-#     schedule:
-#       interval: "daily"
-#     target-branch: "master"
-#     assignees:
-#       - JoranAngevaare
+  - package-ecosystem: "pip"
+    directory: "/extra_requirements"
+    schedule:
+      interval: "daily"
+    target-branch: "master"
+    assignees:
+      - JoranAngevaare
 
   - package-ecosystem: "pip"
     directory: "/"
