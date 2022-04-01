@@ -19,6 +19,14 @@ pymongo_user = $PYMONGO_USER
 pymongo_password = $PYMONGO_PASSWORD
 pymongo_database = $PYMONGO_DATABASE
 
+[scada]
+scdata_url = $SCADA_URL
+sclastvalue_url = $SCADA_VALUE_URL
+
+sclogin_url = $SCADA_LOGIN_URL
+straxen_username = $SCADA_USER
+straxen_password = $SCADA_PWD
+pmt_parameter_names = no_file_found
 EOF
 echo "YEAH boy, complete github actions voodoo now made you have access to our database!"
 else
