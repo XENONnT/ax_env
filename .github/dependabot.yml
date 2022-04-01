@@ -4,17 +4,17 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
+      interval: "monthly"
     assignees:
       - JoranAngevaare
 
-#   - package-ecosystem: "pip"
-#     directory: "/extra_requirements"
-#     schedule:
-#       interval: "daily"
-#     target-branch: "master"
-#     assignees:
-#       - JoranAngevaare
+  - package-ecosystem: "pip"
+    directory: "/extra_requirements"
+    schedule:
+      interval: "daily"
+    target-branch: "master"
+    assignees:
+      - JoranAngevaare
 
   - package-ecosystem: "pip"
     directory: "/"
