@@ -12,12 +12,13 @@ on:
 
 jobs:
   update:
-    name: "py_${{ matrix.python-version }}"
+    name: "${{ matrix.package }} py_${{ matrix.python-version }}"
     runs-on: ubuntu-latest
     strategy:
       fail-fast: False
       matrix:
         python-version: [ 3.8, 3.9, "3.10" ]
+        package: [strax, straxen, wfsim, pema, reprox]
     steps:
       # Setup and installation
       - name: Setup python
@@ -55,7 +56,7 @@ jobs:
           mongodb-version: 4.2
       # Run tests
       - name: Test packages
-        run: bash .github/scripts/do_tests.sh
+        run: bash .github/scripts/do_tests.sh ${{ matrix.package }}
       # Done
       - name: goodbye
         run: echo "tests done, bye bye"
