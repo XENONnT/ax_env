@@ -25,6 +25,8 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-version }}
+          cache: 'pip'
+          cache-dependency-path: 'extra_requirements/requirements-tests.txt'
       - name: Checkout repo
         uses: actions/checkout@v3
       - name: Install requirements
