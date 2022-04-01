@@ -6,7 +6,7 @@ echo "Running tests"
 # spool up test-database for tests
 export TEST_MONGO_URI='mongodb://localhost:27017/'
 
-echo " ... $1 tests"
+echo " ..." $1 "tests"
 
 case "$1" in
   strax )
