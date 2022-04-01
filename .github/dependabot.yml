@@ -8,15 +8,15 @@ updates:
     assignees:
       - JoranAngevaare
 
-  # Maintain the requirements requirements folder
-  - package-ecosystem: "pip"
-    directory: "/extra_requirements"
-    schedule:
-      interval: "daily"
-    target-branch: "master"
-    open-pull-requests-limit: 30
-    assignees:
-      - JoranAngevaare
+#   # Maintain the requirements requirements folder
+#   - package-ecosystem: "pip"
+#     directory: "/extra_requirements"
+#     schedule:
+#       interval: "daily"
+#     target-branch: "master"
+#     open-pull-requests-limit: 30
+#     assignees:
+#       - JoranAngevaare
 
   - package-ecosystem: "pip"
     directory: "/"
