@@ -17,7 +17,7 @@ hypothesis==6.39.0
 immutabledict==2.2.1
 ipywidgets==7.7.0
 jinja2==3.0.3                                   # Holoviews dependency
-jupyter-client==7.1.2                           # for ipywidgets
+jupyter-client==7.2.1                           # for ipywidgets
 keras==2.8.0                                    # Tensorflow dependency
 keras==2.8.0                                    # Tensorflow dependency
 lz4==4.0.0
