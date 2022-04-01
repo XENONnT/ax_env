@@ -9,7 +9,7 @@ branding:
 on:
   workflow_dispatch:
   pull_request:
-    types: [ created ]
+    types: [ opened ]
 
 jobs:
   build:
