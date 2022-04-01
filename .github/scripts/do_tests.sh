@@ -25,7 +25,6 @@ case "$1" in
     rm -r straxen
     rm $HOME/pre_apply_function.py
   ;;
-
   wfsim )
     wfsim_version=`python -c "import wfsim; print(wfsim.__version__)"`
     echo "Testing $wfsim_version"
@@ -40,15 +39,17 @@ case "$1" in
     pytest pema || { echo 'pema tests failed' ; exit 1; }
     rm -r pema
   ;;
-
   reprox )
     reprox_version=`python -c "import reprox; print(reprox.__version__)"`
     echo "Testing $reprox_version"
     git clone --single-branch --branch v$reprox_version https://github.com/XENONnT/reprox ./reprox
+    bash reprox/.github/scripts/overwrite_testing_file.sh test_folder test.ini
+    export REPROX_CONFIG=/home/runner/work/ax_env/reprox/reprox/test_folder/test.ini
+    pwd
     pytest reprox || { echo 'reprox tests failed' ; exit 1; }
     rm -r reprox
-  * )
-      echo "Usage: $0 {strax|straxen|wfsim|pema|reprox}"
-      exit 1
-  ;;
+#  * )
+#      echo "Usage: $0 {strax|straxen|wfsim|pema|reprox}"
+#      exit 1
+#  ;;
 esac
