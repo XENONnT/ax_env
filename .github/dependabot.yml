@@ -24,7 +24,7 @@ updates:
       - JoranAngevaare
 
   - package-ecosystem: "pip"
-    directory: "/extra_requirements"
+    directory: "/"
     schedule:
       # Check for updates to requirements every week
       interval: "daily"
