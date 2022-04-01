@@ -8,7 +8,8 @@ on:
 
 jobs:
   build:
-    if: github.actor == 'dependabot[bot]'
+    if: false
+    # github.actor == 'dependabot[bot]'
     name: Auto approve
     runs-on: ubuntu-latest
     steps:
