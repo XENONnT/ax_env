@@ -3,4 +3,4 @@ pema==0.4.2
 reprox==0.2.1
 strax==1.2.0
 straxen==1.6.0
-wfsim==0.5.13
+wfsim==0.6.0
