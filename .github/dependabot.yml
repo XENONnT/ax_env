@@ -6,11 +6,11 @@ updates:
     schedule:
       interval: "monthly"
 
-  - package-ecosystem: "pip"
-    directory: "/extra_requirements"
-    schedule:
-      interval: "daily"
-    target-branch: "master"
+#   - package-ecosystem: "pip"
+#     directory: "/extra_requirements"
+#     schedule:
+#       interval: "daily"
+#     target-branch: "master"
 
   - package-ecosystem: "pip"
     directory: "/"
