@@ -25,8 +25,8 @@ matplotlib==3.5.1
 memory_profiler==0.60.0
 mongomock==4.0.0
 multihist==0.6.5
+nestpy==1.5.2; python_version<="3.9"
 nestpy==1.4.4; python_version=="3.10"
-nestpy==1.5.0; python_version<="3.9"
 npshmex==0.2.1                                  # Strax dependency
 numba==0.55.1                                   # Strax dependency
 numexpr==2.8.1
