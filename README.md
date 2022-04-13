@@ -15,4 +15,4 @@ Since this repository's only purpose is to facilitate a requirements file for ot
 ```
 
 ## Note of causion on testing on dependabot PRs.
-One side note is that one should keep in mind that dependabot's PRs don't have access to our required secrets. This means that the tests are only _really_ fully run when a PR is merged to master (and has access to the secrets  
+One side note is that one should keep in mind that dependabot's PRs don't have access to our required secrets. This means that the tests are only _really_ fully run when a PR is merged to master (and has access to the secrets there). This can lead to the unlikely situation that an issue with one dependency is uncovered then. The offending PR should be reverted as soon as possible to prevent tests on the repsective packages to fail too (they usually rely on the code on the master branch of this repository).
