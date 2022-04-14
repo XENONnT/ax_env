@@ -58,7 +58,11 @@ jobs:
           mongodb-version: 4.2
       # Run tests
       - name: Test packages
-        run: bash .github/scripts/do_tests.sh ${{ matrix.package }}
+        if: ${{ matrix.os }} = "ubuntu-latest"
+        run: bash .github/scripts/do_tests.sh ${{ matrix.package }} allow_mongo_tests
+      - name: Test packages
+        if: ${{ matrix.os }} = "macos-latest"
+        run: bash .github/scripts/do_tests.sh ${{ matrix.package }} pass
       # Done
       - name: goodbye
         run: echo "tests done, bye bye"
