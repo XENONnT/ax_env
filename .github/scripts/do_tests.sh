@@ -3,8 +3,16 @@
 
 echo "Running tests"
 
-# spool up test-database for tests
-export TEST_MONGO_URI='mongodb://localhost:27017/'
+case "$2" in
+  allow_mongo_tests )
+    echo "Test with mongo!"
+    # spool up test-database for tests
+    export TEST_MONGO_URI='mongodb://localhost:27017/'
+  ;;
+  pass )
+    echo "No mongo started"
+  ;;
+esac
 
 echo " ..." $1 "tests"
 
