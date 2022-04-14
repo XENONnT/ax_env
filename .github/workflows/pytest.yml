@@ -52,6 +52,7 @@ jobs:
           SCADA_LOGIN_URL: ${{ secrets.SCADA_LOGIN_URL }}
           SCADA_PWD: ${{ secrets.SCADA_PWD }}
       - name: Start MongoDB
+        if: ${{ matrix.os }} = "ubuntu-latest"
         uses: supercharge/mongodb-github-action@1.7.0
         with:
           mongodb-version: 4.2
