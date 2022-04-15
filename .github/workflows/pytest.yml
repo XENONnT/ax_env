@@ -32,6 +32,8 @@ jobs:
       - name: Install requirements
         run: |
           pip install wheel
+          git clone https://github.com/JoranAngevaare/nestpy
+          pip install -e nestpy
           pip install -r extra_requirements/requirements-tests.txt
           pip install -r requirements.txt
       # Secrets and required files
