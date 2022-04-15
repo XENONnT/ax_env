@@ -1,4 +1,4 @@
-nestpy-test2==1.5.14
+nestpy-test2==1.5.15
 
 awkward==1.8.0
 blosc==1.10.6                                   # Strax dependency
