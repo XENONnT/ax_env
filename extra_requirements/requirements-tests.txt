@@ -1,2 +1,2 @@
-nestpy-test2==1.5.3
+nestpy-test2==1.5.4
 # nestpy==1.4.4
