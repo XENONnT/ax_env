@@ -12,14 +12,13 @@ on:
 
 jobs:
   update:
-    name: "${{ matrix.package }} py_${{ matrix.python-version }} (${{ matrix.os }})"
+    name: "$py_${{ matrix.python-version }} (${{ matrix.os }})"
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: False
       matrix:
         os: [ "ubuntu-latest" , "macos-latest"]
         python-version: [3.6, 3.7, 3.8, 3.9, "3.10"]
-        package: [strax]
     steps:
       # Setup and installation
       - name: Setup python
@@ -31,4 +30,3 @@ jobs:
       - name: Install requirements
         run: |
           pip install -r extra_requirements/requirements-tests.txt
-          pip install -r requirements.txt
