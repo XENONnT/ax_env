@@ -1,5 +1,9 @@
 # Ax env
-[![Test package](https://github.com/XENONnT/ax_env/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/XENONnT/ax_env/actions/workflows/pytest.yml)
+[![Test package](https://github.com/XENONnT/ax_env/actions/workflows/pytest.yml/badge.svg?branch=master)](https://github.com/XENONnT/ax_env/actions/workflows/pytest.yml) 
+[![PyPI version shields.io](https://img.shields.io/pypi/v/ax_env.svg)](https://pypi.python.org/pypi/ax_env/) 
+[![Python Versions](https://img.shields.io/pypi/pyversions/ax_env.svg)](https://pypi.python.org/pypi/ax_env)
+[![PyPI downloads](https://img.shields.io/pypi/dm/ax_env.svg)](https://pypistats.org/packages/ax_env)
+
 
 j.angevaare@nikhef.nl
 
