@@ -40,7 +40,7 @@ pytest-cov==3.0.0
 scikit-learn==1.0.2
 scipy==1.8.0                                    # Strax dependency
 tensorflow==2.8.0
-typing_extensions==4.1.1                        # Tensorflow/bokeh dependency
+typing_extensions==4.2.0                        # Tensorflow/bokeh dependency
 tqdm==4.63.1
 uproot==4.2.2
 utilix==0.7.0
