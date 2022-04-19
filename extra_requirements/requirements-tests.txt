@@ -32,7 +32,7 @@ numexpr==2.8.1
 numpy==1.21.6
 packaging==21.3
 pandas==1.4.2                                   # Strax dependency
-panel==0.12.7                                   # Bokeh dependency
+panel==0.13.0                                   # Bokeh dependency
 psutil==5.9.0                                   # Strax dependency
 pymongo==3.12.3                                 # Strax dependency
 pytest==7.1.1
