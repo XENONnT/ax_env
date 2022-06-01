@@ -23,9 +23,9 @@ case "$1" in
     rm -r straxen
     rm $HOME/pre_apply_function.py
   ;;
-#  wfsim )
-#    wfsim_version=`python -c "import wfsim; print(wfsim.__version__)"`
-#    echo "Testing $wfsim_version"
+ wfsim )
+   wfsim_version=`python -c "import wfsim; print(wfsim.__version__)"`
+   echo "Testing $wfsim_version"
 #    git clone --single-branch --branch v$wfsim_version https://github.com/XENONnT/wfsim ./wfsim
 #    pytest wfsim || { echo 'wfsim tests failed' ; exit 1; }
 #    rm -r wfsim
@@ -33,8 +33,8 @@ case "$1" in
   pema )
     pema_version=`python -c "import pema; print(pema.__version__)"`
     echo "Testing $pema_version"
-    git clone --single-branch --branch v$pema_version https://github.com/XENONnT/pema ./pema
-    pytest pema || { echo 'pema tests failed' ; exit 1; }
-    rm -r pema
+#     git clone --single-branch --branch v$pema_version https://github.com/XENONnT/pema ./pema
+#     pytest pema || { echo 'pema tests failed' ; exit 1; }
+#     rm -r pema
   ;;
 esac
