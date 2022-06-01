@@ -29,7 +29,7 @@ case "$1" in
 #    git clone --single-branch --branch v$wfsim_version https://github.com/XENONnT/wfsim ./wfsim
 #    pytest wfsim || { echo 'wfsim tests failed' ; exit 1; }
 #    rm -r wfsim
-#  ;;
+  ;;
   pema )
     pema_version=`python -c "import pema; print(pema.__version__)"`
     echo "Testing $pema_version"
