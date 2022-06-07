@@ -18,7 +18,7 @@ hypothesis==6.46.2
 immutabledict==2.2.1
 ipywidgets==7.7.0
 jinja2==3.1.2
-jupyter-client==7.3.1
+jupyter-client==7.3.3
 keras==2.9.0
 lz4==4.0.1
 matplotlib==3.5.2
