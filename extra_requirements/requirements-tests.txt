@@ -31,7 +31,7 @@ numba==0.55.2
 numexpr==2.8.1
 numpy==1.22.4
 packaging==21.3
-pandas==1.4.2
+pandas==1.4.3
 panel==0.13.1
 pdmongo==0.1.0
 psutil==5.9.1
