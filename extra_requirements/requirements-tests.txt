@@ -13,7 +13,7 @@ distributed
 flake8==4.0.1
 fsspec==2022.5.0
 gitpython==3.1.26
-holoviews==1.14.9
+holoviews==1.15.0
 hypothesis==6.46.2
 immutabledict==2.2.1
 ipywidgets==7.7.0
@@ -43,7 +43,7 @@ scipy==1.8.1
 tensorflow==2.9.1
 typing_extensions==4.2.0
 tqdm==4.63.1
-uproot==4.2.3
+uproot==4.3.3
 utilix==0.7.0
 xarray==2022.3.0
 zarr==2.11.1
