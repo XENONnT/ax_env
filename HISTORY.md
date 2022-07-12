@@ -1,3 +1,26 @@
+0.2.6 / 2022-07-12
+------------------
+* Bump jupyter-client from 7.3.1 to 7.3.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/116
+* Bump strax from 1.2.2 to 1.2.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/117
+* Bump straxen from 1.7.1 to 1.8.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/118
+* Bump wfsim by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/119
+* Bump jupyter-client from 7.3.3 to 7.3.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/120
+* Bump uproot from 4.2.3 to 4.3.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/129
+* Bump actions/setup-python from 3 to 4 by @dependabot in https://github.com/XENONnT/ax_env/pull/128
+* Bump ipywidgets from 7.7.0 to 7.7.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/126
+* Bump datashader from 0.14.0 to 0.14.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/122
+* Bump epix from 0.3.0 to 0.3.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/121
+* Bump zarr from 2.11.1 to 2.12.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/127
+* Bump pandas from 1.4.2 to 1.4.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/134
+* Bump mongomock from 4.0.0 to 4.1.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/133
+* Bump wfsim from 1.0.0 to 1.0.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/132
+* Bump holoviews from 1.14.9 to 1.15.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/131
+* Bump typing-extensions from 4.2.0 to 4.3.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/136
+* Bump numexpr from 2.8.1 to 2.8.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/135
+
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.5...v0.2.6
+
 0.2.5 / 2022-06-07
 ------------------
 * Bump pytest from 7.1.1 to 7.1.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/80
