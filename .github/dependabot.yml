@@ -4,14 +4,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
-
-#   - package-ecosystem: "pip"
-#     directory: "/extra_requirements"
-#     schedule:
-#       interval: "daily"
-#     target-branch: "master"
-
+      interval: "weekly"
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
