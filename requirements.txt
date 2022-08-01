@@ -1,5 +1,5 @@
 # epix==0.3.1
-git+https://github.com/JoranAngevaare/epix/archive/disable-numba-for-clustering.zip
+git+https://github.com/JoranAngevaare/epix@disable-numba-for-clustering
 pema==0.6.3
 reprox==0.2.2
 strax==1.2.3
