@@ -1,4 +1,4 @@
-epix==0.3.0
+epix==0.2.2
 pema==0.6.3
 reprox==0.2.2
 strax==1.2.3
