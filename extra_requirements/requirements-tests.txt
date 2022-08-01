@@ -10,7 +10,7 @@ dask-jobqueue==0.7.4
 datashader==0.14.1
 dill==0.3.5.1
 distributed
-flake8==4.0.1
+flake8==5.0.2
 fsspec==2022.7.1
 gitpython==3.1.26
 holoviews==1.15.0
