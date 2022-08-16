@@ -17,4 +17,4 @@ jobs:
         with:
           respondableId: ${{ github.event.pull_request.node_id }}
           response: "@dependabot squash and merge"
-          author: ${{ github.event.pull_request.user.login }}
+          author: "JoranAngevaare"
