@@ -1,3 +1,27 @@
+0.2.7 / 2022-08-19
+------------------
+* Bump dask-jobqueue from 0.7.3 to 0.7.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/139
+* Bump coverage from 6.4.1 to 6.4.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/138
+* Bump straxen from 1.8.1 to 1.8.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/137
+* Bump straxen from 1.8.2 to 1.8.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/140
+* Bump lz4 from 4.0.1 to 4.0.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/142
+* Bump xarray from 2022.3.0 to 2022.6.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/141
+* Bump numba from 0.55.2 to 0.56.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/144
+* Bump fsspec from 2022.5.0 to 2022.7.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/145
+* Bump fsspec from 2022.7.0 to 2022.7.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/146
+* Bump scipy from 1.8.1 to 1.9.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/147
+* Restart tests by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/148
+* Bump flake8 from 4.0.1 to 5.0.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/154
+* Bump uproot from 4.3.3 to 4.3.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/157
+* Bump scikit-learn from 1.1.1 to 1.1.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/156
+* Bump flake8 from 5.0.3 to 5.0.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/155
+* Bump matplotlib from 3.5.2 to 3.5.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/160
+* Bump datashader from 0.14.1 to 0.14.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/159
+* Bump epix from 0.3.1 to 0.3.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/161
+
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.6...v0.2.7
+
 0.2.6 / 2022-07-12
 ------------------
 * Bump jupyter-client from 7.3.1 to 7.3.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/116
