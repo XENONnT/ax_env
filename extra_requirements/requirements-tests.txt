@@ -43,7 +43,7 @@ scipy==1.9.1
 tensorflow==2.9.2
 typing_extensions==4.3.0
 tqdm==4.63.1
-uproot==4.3.4
+uproot==4.3.5
 utilix==0.7.2
 xarray==2022.6.0
 zarr==2.12.0
