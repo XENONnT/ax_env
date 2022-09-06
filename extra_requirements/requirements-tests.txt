@@ -1,4 +1,4 @@
-awkward==1.8.0
+awkward==1.9.0
 blosc==1.10.6
 bokeh==2.4.3
 boltons==21.0.0
@@ -16,7 +16,7 @@ gitpython==3.1.26
 holoviews==1.15.0
 hypothesis==6.46.2
 immutabledict==2.2.1
-ipywidgets==8.0.1
+ipywidgets==8.0.2
 jinja2==3.1.2
 jupyter-client==7.3.4
 keras==2.9.0
