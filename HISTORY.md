@@ -1,3 +1,29 @@
+0.3.0 / 2022-09-09
+------------------
+* Bump ipywidgets from 7.7.1 to 8.0.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/162
+* Bump coverage from 6.4.2 to 6.4.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/163
+* Bump pandas from 1.4.3 to 1.4.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/169
+* Bump fsspec from 2022.7.1 to 2022.8.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/168
+* Bump scipy from 1.9.0 to 1.9.1 by @dependabot in https://github.com/XENONnT/ax_env/pull/167
+* Bump dask-jobqueue from 0.7.4 to 0.8.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/166
+* Bump fsspec from 2022.8.1 to 2022.8.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/170
+* Bump numba from 0.55.2 to 0.56.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/173
+* Bump utilix from 0.7.0 to 0.7.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/172
+* Bump pytest from 7.1.2 to 7.1.3 by @dependabot in https://github.com/XENONnT/ax_env/pull/171
+* Bump ipywidgets from 8.0.1 to 8.0.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/178
+* Bump tensorflow from 2.9.1 to 2.9.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/177
+* Bump psutil from 5.9.1 to 5.9.2 by @dependabot in https://github.com/XENONnT/ax_env/pull/174
+* Bump uproot from 4.3.4 to 4.3.5 by @dependabot in https://github.com/XENONnT/ax_env/pull/175
+* Bump nestpy from 1.5.4 to 2.0.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/182
+* Bump awkward from 1.8.0 to 1.9.0 by @dependabot in https://github.com/XENONnT/ax_env/pull/179
+* Bump zstd from 1.5.2.5 to 1.5.2.6 by @dependabot in https://github.com/XENONnT/ax_env/pull/181
+* Bump tf by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/183
+* Bump strax by @JoranAngevaare in https://github.com/XENONnT/ax_env/pull/184
+
+
+**Full Changelog**: https://github.com/XENONnT/ax_env/compare/v0.2.7...v0.3.0
+
+
 0.2.7 / 2022-08-19
 ------------------
 * Bump dask-jobqueue from 0.7.3 to 0.7.4 by @dependabot in https://github.com/XENONnT/ax_env/pull/139
