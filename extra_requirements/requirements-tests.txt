@@ -30,7 +30,7 @@ npshmex==0.2.1
 numba==0.56.2
 numexpr==2.8.3
 packaging==21.3
-pandas==1.4.4
+pandas==1.5.0
 panel==0.13.1
 pdmongo==0.1.0
 psutil==5.9.2
