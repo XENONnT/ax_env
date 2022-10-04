@@ -12,14 +12,14 @@ case "$1" in
   strax )
     strax_version=`python -c "import strax; print(strax.__version__)"`
     git clone --single-branch --branch v$strax_version https://github.com/AxFoundation/strax.git
-    pytest strax || { echo 'strax tests failed' ; exit 1; }
+    pytest -n auto strax || { echo 'strax tests failed' ; exit 1; }
     rm -r strax
   ;;
   straxen )
     straxen_version=`python -c "import straxen; print(straxen.__version__)"`
     git clone --single-branch --branch v$straxen_version https://github.com/XENONnT/straxen.git
     bash straxen/.github/scripts/create_pre_apply_function.sh $HOME
-    pytest straxen/tests || { echo 'straxen tests failed' ; exit 1; }
+    pytest -n auto straxen/tests || { echo 'straxen tests failed' ; exit 1; }
     rm -r straxen
     rm $HOME/pre_apply_function.py
   ;;
@@ -27,7 +27,7 @@ case "$1" in
    wfsim_version=`python -c "import wfsim; print(wfsim.__version__)"`
    echo "Testing $wfsim_version"
    git clone --single-branch --branch v$wfsim_version https://github.com/XENONnT/wfsim ./wfsim
-   pytest wfsim || { echo 'wfsim tests failed' ; exit 1; }
+   pytest -n auto wfsim || { echo 'wfsim tests failed' ; exit 1; }
    rm -r wfsim
   ;;
   pema )
