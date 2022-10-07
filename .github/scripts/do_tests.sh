@@ -27,7 +27,7 @@ case "$1" in
    wfsim_version=`python -c "import wfsim; print(wfsim.__version__)"`
    echo "Testing $wfsim_version"
    git clone --single-branch --branch v$wfsim_version https://github.com/XENONnT/wfsim ./wfsim
-   pytest -n auto wfsim || { echo 'wfsim tests failed' ; exit 1; }
+   pytest wfsim || { echo 'wfsim tests failed' ; exit 1; }
    rm -r wfsim
   ;;
   pema )
