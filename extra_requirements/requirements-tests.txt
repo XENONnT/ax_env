@@ -41,7 +41,7 @@ pytest-xdist==2.5.0
 scikit-learn==1.1.2
 scipy==1.9.1
 tensorflow==2.10.0
-typing_extensions==4.3.0
+typing_extensions==4.4.0
 tqdm==4.63.1
 uproot==4.3.7
 utilix==0.7.2
