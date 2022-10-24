@@ -3,5 +3,5 @@ epix==0.3.2
 pema==0.6.4
 reprox==0.2.2
 strax==1.4.0
-straxen==2.0.1
+straxen==2.0.2
 wfsim==1.0.2
