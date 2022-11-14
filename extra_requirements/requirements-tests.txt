@@ -27,7 +27,7 @@ mongomock==4.1.2
 multihist==0.6.5
 nestpy==2.0.0
 npshmex==0.2.1
-numba==0.56.3
+numba==0.56.4
 numexpr==2.8.4
 packaging==21.3
 pandas==1.5.1
