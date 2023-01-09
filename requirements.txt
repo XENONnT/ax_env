@@ -1,4 +1,4 @@
-epix==0.3.2
+epix==0.3.3
 # git+https://github.com/JoranAngevaare/epix@disable-numba-for-clustering
 pema==0.6.4
 reprox==0.2.2
