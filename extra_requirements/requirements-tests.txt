@@ -1,4 +1,4 @@
-awkward==2.0.5
+awkward==1.10.1
 blosc==1.11.1
 bokeh==2.4.3
 boltons==21.0.0
@@ -43,7 +43,7 @@ scipy==1.10.0
 tensorflow== 2.11.0
 typing_extensions==4.4.0
 tqdm==4.63.1
-uproot==5.0.2
+uproot==4.3.7
 utilix==0.7.2
 xarray==2022.12.0
 zarr==2.13.3
