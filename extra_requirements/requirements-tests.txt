@@ -46,5 +46,5 @@ tqdm==4.63.1
 uproot==4.3.7
 utilix==0.7.2
 xarray==2022.12.0
-zarr==2.13.3
+zarr==2.14.0
 zstd==1.5.2.6
