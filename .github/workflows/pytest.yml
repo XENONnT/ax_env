@@ -53,7 +53,7 @@ jobs:
           SCADA_LOGIN_URL: ${{ secrets.SCADA_LOGIN_URL }}
           SCADA_PWD: ${{ secrets.SCADA_PWD }}
       - name: Start MongoDB
-        uses: supercharge/mongodb-github-action@1.7.0
+        uses: supercharge/mongodb-github-action@1.9.0
         with:
           mongodb-version: 4.2
       # Run tests
