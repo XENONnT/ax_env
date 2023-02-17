@@ -18,7 +18,7 @@ with open('HISTORY.md') as file:
 requires = open_requirements('extra_requirements/requirements-tests.txt')
 
 setuptools.setup(name='ax_env',
-                 version='0.3.1',
+                 version='0.3.2',
                  description='dependency manager for XENONnT package',
                  author='J. R. Angevaare',
                  url='https://github.com/XENONnT/ax_env',
