@@ -28,7 +28,7 @@ jobs:
 #          cache: 'pip'
 #          cache-dependency-path: 'extra_requirements/requirements-tests.txt'
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Install requirements
         run: |
           pip install -r extra_requirements/requirements-tests.txt
