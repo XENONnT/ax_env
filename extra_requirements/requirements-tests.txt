@@ -11,7 +11,7 @@ datashader==0.14.4
 dill==0.3.5.1
 distributed
 flake8==6.0.0
-fsspec==2022.11.0
+fsspec==2023.12.1
 gitpython==3.1.30
 holoviews==1.15.4
 hypothesis==6.46.2
