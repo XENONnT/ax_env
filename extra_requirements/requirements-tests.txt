@@ -1,6 +1,6 @@
 awkward==1.10.1
 blosc==1.11.1
-bokeh==2.4.3
+bokeh==3.3.3
 boltons==21.0.0
 commentjson==0.9.0
 coverage==6.5.0
@@ -13,7 +13,7 @@ distributed
 flake8==6.0.0
 fsspec==2022.11.0
 gitpython==3.1.30
-holoviews==1.15.4
+holoviews==1.18.1
 hypothesis==6.46.2
 immutabledict==2.2.3
 ipywidgets==8.0.4
@@ -32,7 +32,7 @@ numba==0.56.4
 numexpr==2.8.4
 packaging==23.0
 pandas==1.5.3
-panel==0.14.3
+panel==1.3.6
 pdmongo==0.3.4
 psutil==5.9.4
 pymongo==3.13.0
