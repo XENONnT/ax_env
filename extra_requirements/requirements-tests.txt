@@ -30,6 +30,7 @@ numba==0.58.1
 numexpr==2.8.8
 packaging==23.2
 pandas==1.5.3
+panel==1.2.3
 pdmongo==0.3.4
 psutil==5.9.7
 pymongo==4.3.3
