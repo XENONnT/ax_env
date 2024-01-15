@@ -1,6 +1,6 @@
-epix==0.3.3
-pema==0.6.4
+epix==0.3.6
+pema==0.6.5
 reprox==0.2.2
-strax==1.4.1
-straxen==2.0.4
-wfsim==1.0.2
+strax==1.5.5
+straxen==2.1.6
+wfsim==1.1.0
