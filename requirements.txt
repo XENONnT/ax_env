@@ -1,5 +1,5 @@
 epix==0.3.6
-pema==0.6.5
+pema==0.7.0
 reprox==0.2.2
 strax==1.6.0
 straxen==2.2.0
